@@ -164,7 +164,7 @@ export default function InvitationsPage() {
                 {menuOpenIndex === index && (
                   <div className="bg-white border mt-2 rounded shadow-lg w-32 text-sm text-right z-10">
                     <button
-                      onClick={() => router.push(`/invitationdetails?title=${encodeURIComponent(item.title)}`)}
+                      onClick={() => router.push(`/invitationdetails/InvitationDetailsClient?title=${encodeURIComponent(item.title)}`)}
                       className="block w-full text-right px-4 py-2 hover:bg-gray-100"
                     >
                       تفاصيل الدعوة
